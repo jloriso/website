@@ -4,3 +4,18 @@ function toggleMenu(){
     menu.classList.toggle("open");
     icon.classList.toggle("open");
 }
+
+function togglePicture(){
+    let img = document.querySelector(".about-pic");
+
+    let currImg = img.getAttribute("src");
+
+    console.log(currImg);
+
+    if (currImg == "./assets/profile-pic-2"){
+        img.setAttribute("src", "./assets/about-pic.png");
+    }
+    else{
+        img.setAttribute("src", "./assets/profile-pic-2.png");
+    }
+}

@@ -12,7 +12,7 @@ function togglePicture(){
 
     console.log(currImg);
 
-    if (currImg == "./assets/profile-pic-2"){
+    if (currImg == "./assets/profile-pic-2.png"){
         img.setAttribute("src", "./assets/about-pic.png");
     }
     else{

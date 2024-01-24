@@ -286,6 +286,7 @@ section {
 
 .about-pic{
     border-radius:2rem;
+    cursor: pointer;
 }
 
 .arrow{
@@ -455,4 +456,9 @@ footer p{
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
+  }
+
+  .dot-container{
+    text-align:center;
+    padding-top:40%;
   }

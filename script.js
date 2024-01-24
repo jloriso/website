@@ -5,6 +5,13 @@ function toggleMenu(){
     icon.classList.toggle("open");
 }
 
+function toggleDots(){
+    const dot1 = document.querySelector(".dot1");
+    const dot2 = document.querySelector(".dot2");
+    dot1.classList.toggle("active");
+    dot2.classList.toggle("active");
+}
+
 function togglePicture(){
     let img = document.querySelector(".about-pic");
 
@@ -17,10 +24,7 @@ function togglePicture(){
         img.setAttribute("src", "./assets/profile-pic-2.png");
     }
 
-    const dot1 = document.querySelector(".dot1");
-    const dot2 = document.querySelector(".dot2");
-    dot1.classList.toggle("active");
-    dot2.classList.toggle("active");
+    toggleDots();
 }
 
 function currentSlide(slide){
@@ -28,23 +32,17 @@ function currentSlide(slide){
 
     if (slide == 1){
         img.setAttribute("src", "./assets/about-pic.png");
-        const dot1 = document.querySelector(".dot1");
-        const dot2 = document.querySelector(".dot2");
-        dot1.classList.toggle("active");
-        dot2.classList.toggle("active");
+        
+        toggleDots();
     }
     else if (slide == 2){
         img.setAttribute("src", "./assets/profile-pic-2.png");
-        const dot1 = document.querySelector(".dot1");
-        const dot2 = document.querySelector(".dot2");
-        dot1.classList.toggle("active");
-        dot2.classList.toggle("active");
+        
+        toggleDots();
     }
     else{
         img.setAttribute("src", "./assets/about-pic.png");
-        const dot1 = document.querySelector(".dot1");
-        const dot2 = document.querySelector(".dot2");
-        dot1.classList.toggle("active");
-        dot2.classList.toggle("active");
+        
+        toggleDots();
     }
 }

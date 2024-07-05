@@ -38,7 +38,7 @@
 	</nav>
 	<section id="profile">
 		<div class="section__pic-container">
-			<img src="./assets/profile-pic.png" alt="Joseph Loriso profile picture">
+			<img src="./assets/awardsPhotoCropped.png" alt="Joseph Loriso profile picture">
 		</div>	
 	<div class="section__text">
 		<p class="section__text__p1">Hello, I'm</p>
@@ -73,16 +73,31 @@
 		<h1 class="title">About Me</h1>
 		<div class="section-container">
 			<div class="section__pic-container">
+				<div>
+					<img 
+						src="./assets/leftArrow.png" 
+						alt="Arrow icon" 
+						class="icon-arrow"
+						onclick="imageSlider('left')"
+					/>
+				</div>
 				<img 
-					src="./assets/about-pic.png"
+					src="./assets/seniorPic.jpg"
 					alt="Profile picture"
 					class="about-pic"
-					onclick="togglePicture()"
 				/>
-				<div class="dot-container">
+				<div>
+					<img 
+						src="./assets/rightArrow.png" 
+						alt="Arrow icon" 
+						class="icon-arrow"
+						onclick="imageSlider('right')"
+					/>
+				</div>
+				<!-- <div class="dot-container">
 					<span class="dot dot1 active" onclick="currentSlide(1)"></span> 
 					<span class="dot dot2" onclick="currentSlide(2)"></span> 
-				</div> 
+				</div>  -->
 			</div>
 			<div class="about-details-container">
 				<div class="about-container">

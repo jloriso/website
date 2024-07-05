@@ -433,8 +433,24 @@ footer p{
     text-align: center;
 }
 
-/* IMAGE DOTS */
+/* IMAGE NAVIGATION */
   
+  .icon-arrow{
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    margin: 0 5px;
+    margin-top: 100px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .icon-arrow:hover {
+    background-color: #bbbbbb;
+  }
+
   /* The dots/bullets/indicators */
   .dot {
     cursor: pointer;

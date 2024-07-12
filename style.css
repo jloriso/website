@@ -66,8 +66,20 @@ a:hover{
 
 /* HAMBURGER MENU */
 
+#home-link:hover{
+    color: gray;
+    text-decoration: none;
+    text-underline-offset: 1rem;
+    text-decoration-color: rgb(181,181,181);
+}
+
 #hamburger-nav{
     display:none;
+    height: 17vh;
+}
+
+#name-title{
+    margin-top: 0 !important;
 }
 
 .hamburger-menu{
@@ -264,6 +276,10 @@ section {
 
 /* ABOUT SECTION */
 
+#about-me{
+    margin-top: 0;
+}
+
 #about{
     position:relative;
 }
@@ -311,8 +327,9 @@ section {
 }
 
 .section__pic-container{
-    height:400px;
-    width: 400px;
+    height: 100%;
+    width: 100%;
+    margin-left: 80%;
     margin: auto 0;
 }
 
@@ -440,7 +457,7 @@ footer p{
     height: 50px;
     width: 50px;
     margin: 0 5px;
-    margin-top: 100px;
+    margin-top: 5rem;
     background-color: #ffffff;
     border-radius: 50%;
     display: inline-block;

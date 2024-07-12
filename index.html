@@ -21,7 +21,7 @@
 		</div>
 	</nav>
 	<nav id="hamburger-nav">
-		<div class="logo">Joseph Loriso</div>
+		<div class="logo"><a id="home-link" href="">Joseph Loriso</a></div>
 		<div class="hamburger-menu">
 			<div class="hamburger-icon" onclick="toggleMenu()">
 				<span></span>
@@ -42,7 +42,7 @@
 		</div>	
 	<div class="section__text">
 		<p class="section__text__p1">Hello, I'm</p>
-		<h1 class="title">Joseph Loriso</h1>
+		<h1 class="title" id="name-title">Joseph Loriso</h1>
 		<p class="section__text__p2">Computer Science Student</p>
 		<div class="btn-container">
 			<button class="btn btn-color-2" onclick="window.open('./assets/resume.pdf')">
@@ -70,7 +70,7 @@
 	</section>
 	<section id="about">
 		<p class="section__text__p1">Get To Know More</p>
-		<h1 class="title">About Me</h1>
+		<h1 class="title" id="about-me">About Me</h1>
 		<div class="section-container">
 			<div class="section__pic-container">
 				<div>
@@ -94,10 +94,6 @@
 						onclick="imageSlider('right')"
 					/>
 				</div>
-				<!-- <div class="dot-container">
-					<span class="dot dot1 active" onclick="currentSlide(1)"></span> 
-					<span class="dot dot2" onclick="currentSlide(2)"></span> 
-				</div>  -->
 			</div>
 			<div class="about-details-container">
 				<div class="about-container">
@@ -108,7 +104,15 @@
 							class="icon"
 						/>
 						<h3>Experience</h3>
-						<p>Teacher's Assistant<br  />Object Oriented Programming</p>
+						<ul>
+						<p>Teacher's Assistant
+							<br  />
+							Object Oriented Programming</p>
+						<p>Full Stack Development Intern
+							<br  />
+							Walsh Group</p>
+						</p>
+						</ul>
 					</div>
 					<div class="details-container">
 						<img
@@ -391,6 +395,7 @@
 		<nav>
 			<div class="nav-links-container">
 				<ul class="nav-links">
+					<li><a href="">Home</a></li>
 					<li><a href="#about">About</a></li>
 					<li><a href="#experience">Experience</a></li>
 					<li><a href="#projects">Projects</a></li>

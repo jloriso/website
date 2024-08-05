@@ -11,26 +11,26 @@ function imageSlider(direction){
 }
 
 function toggleRight(img, currImg){
-    if (currImg == "./assets/seniorPic.jpg"){
-        img.setAttribute("src", "./assets/graduationSpeech.png");
-    } else if(currImg == "./assets/graduationSpeech.png"){
-        img.setAttribute("src", "./assets/ONUrun.jpg");
-    } else if(currImg == "./assets/ONUrun.jpg"){
-        img.setAttribute("src", "./assets/trackHeadshot.jpg");
-    } else if(currImg == "./assets/trackHeadshot.jpg"){
-        img.setAttribute("src", "./assets/seniorPic.jpg");
+    if (currImg == "./assets/aboutPics/seniorPic.jpg"){
+        img.setAttribute("src", "./assets/aboutPics/graduationSpeech.png");
+    } else if(currImg == "./assets/aboutPics/graduationSpeech.png"){
+        img.setAttribute("src", "./assets/aboutPics/ONUrun.jpg");
+    } else if(currImg == "./assets/aboutPics/ONUrun.jpg"){
+        img.setAttribute("src", "./assets/aboutPics/trackHeadshot.jpg");
+    } else if(currImg == "./assets/aboutPics/trackHeadshot.jpg"){
+        img.setAttribute("src", "./assets/aboutPics/seniorPic.jpg");
     }
 }
 
 function toggleLeft(img, currImg){
-    if(currImg == "./assets/seniorPic.jpg"){
-        img.setAttribute("src", "./assets/trackHeadshot.jpg");
-    } else if(currImg == "./assets/trackHeadshot.jpg"){
-        img.setAttribute("src", "./assets/ONUrun.jpg");
-    } else if(currImg == "./assets/ONUrun.jpg"){
-        img.setAttribute("src", "./assets/graduationSpeech.png");
-    } else if(currImg == "./assets/graduationSpeech.png"){
-        img.setAttribute("src", "./assets/seniorPic.jpg");
+    if(currImg == "./assets/aboutPics/seniorPic.jpg"){
+        img.setAttribute("src", "./assets/aboutPics/trackHeadshot.jpg");
+    } else if(currImg == "./assets/aboutPics/trackHeadshot.jpg"){
+        img.setAttribute("src", "./assets/aboutPics/ONUrun.jpg");
+    } else if(currImg == "./assets/aboutPics/ONUrun.jpg"){
+        img.setAttribute("src", "./assets/aboutPics/graduationSpeech.png");
+    } else if(currImg == "./assets/aboutPics/graduationSpeech.png"){
+        img.setAttribute("src", "./assets/aboutPics/seniorPic.jpg");
     }
 }
 

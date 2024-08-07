@@ -6,6 +6,7 @@
 
 #about{
     position:relative;
+    margin-top: 10px;
 }
 
 .about-container{
@@ -27,12 +28,21 @@
 .about-pic{
     border-radius:2rem;
     cursor: pointer;
+    height: 20rem;
+    width: 20rem;
 }
 
 .arrow{
     position:absolute;
     right:-5rem;
     bottom:2.5rem;
+}
+
+.section__pic-container{
+    display: flex;
+    padding-left: 35% !important;
+    padding-bottom: 10% !important;
+    
 }
 
 /* IMAGE NAVIGATION */

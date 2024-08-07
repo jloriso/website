@@ -22,7 +22,7 @@
                     <img
                         src="./assets/leftArrow.png"
                         alt="Arrow icon"
-                        class="icon-arrow"
+                        class="icon-arrow left-arrow deactivated"
                         onclick="projectSlider('left')"
                     />
                 </div>
@@ -33,7 +33,7 @@
                     <img
                         src="./assets/rightArrow.png"
                         alt="Arrow icon"
-                        class="icon-arrow"
+                        class="icon-arrow right-arrow"
                         onclick="projectSlider('right')"
                     />
                 </div>
@@ -44,12 +44,13 @@
                 <span class="dot dot2" onclick="loadProjectTwo()"></span> 
                 <span class="dot dot3" onclick="loadProjectThree()"></span> 
             </div> 
-            
+
         </section>
         
         <div id="footer-placeholder"></div>
 
-        <script src="script.js"></script>
+        <script src="./scripts/script.js"></script>
+        <script src="./scripts/projects.js"></script>
         <script>
             document.addEventListener("DOMContentLoaded", function(){
                 projectSlider('home');

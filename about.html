@@ -22,7 +22,7 @@
                         <img 
                             src="./assets/leftArrow.png" 
                             alt="Arrow icon" 
-                            class="icon-arrow"
+                            class="icon-arrow left-arrow deactivated"
                             onclick="imageSlider('left')"
                         />
                     </div>
@@ -35,11 +35,17 @@
                         <img 
                             src="./assets/rightArrow.png" 
                             alt="Arrow icon" 
-                            class="icon-arrow"
+                            class="icon-arrow right-arrow"
                             onclick="imageSlider('right')"
                         />
                     </div>
                 </div>
+                <div id="dot-container">
+                    <span class="dot dot1 active" onclick="loadPictureOne()"></span> 
+                    <span class="dot dot2" onclick="loadPictureTwo()"></span> 
+                    <span class="dot dot3" onclick="loadPictureThree()"></span> 
+                    <span class="dot dot4" onclick="loadPictureFour()"></span> 
+                </div> 
                 <div class="about-details-container">
                     <div class="about-container">
                         <div class="details-container">
@@ -98,6 +104,7 @@
         
         <div id="footer-placeholder"></div>
 
-        <script src="script.js"></script>
+        <script src="./scripts/script.js"></script>
+        <script src="./scripts/about.js"></script>
     </body>
 </html>

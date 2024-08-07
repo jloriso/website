@@ -1,5 +1,22 @@
 /* EXPERIENCE */
 
+#experience-info-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+#dot-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
 #experience{
     position:relative;
 }
@@ -16,4 +33,3 @@
     justify-content: center;
     flex-direction: column;
 }
-

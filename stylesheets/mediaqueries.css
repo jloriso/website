@@ -42,6 +42,9 @@
     .about-container{
         margin-top: 0;
     }
+    #project-info-container{
+        width: 80%;
+    }
 }
 
 @media screen and (max-width: 600px){
